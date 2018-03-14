@@ -11,6 +11,8 @@ Well, first of all, this is a shiny application. [Shiny](https://shiny.rstudio.c
 
 This application was built to celebrate $\pi$ day (March 14th). The purpose of this application is to show how two different simulations can be used to approximate $\pi$. There are two simulations we demonstrate: Buffon's needle and a Monte Carlo method. 
 
+[Find the code for this app on GitHub!](https://github.com/bgstieber/PiSimulations)
+
 #### Buffon's Needle
 
 Buffon's needle is a fairly well known example from geometric probability. [Wikipedia](https://en.wikipedia.org/wiki/Buffon%27s_needle) has a nice explanation, as well as [Wolfram Mathworld](http://mathworld.wolfram.com/BuffonsNeedleProblem.html). Basically, we toss needles of some length (say $l$) onto a floor with equally spaced parallel lines drawn a distance (say $d$) apart. We then count how many needles cross a parallel line, and then we're ready to calculate $\pi$! 
